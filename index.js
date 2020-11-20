@@ -1,3 +1,4 @@
+//JS simple state CALCULATOR
 const calc = () => {
 	const a = parseInt(document.querySelector('#val1').value);
 	const b = parseInt(document.querySelector('#val2').value);
@@ -27,7 +28,7 @@ document.querySelector('[type="button"]').addEventListener("click", ()=>{
 	calc();
 	});
 	
-//TOGGLE BODY BACKGROUND
+//TOGGLE BODY BACKGROUND and forms border
 function change() {
 	let bDY = document.body;
 	let fm = document.querySelector('form');
